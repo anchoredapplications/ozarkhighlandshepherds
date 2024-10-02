@@ -1,5 +1,6 @@
 <template>
-<h1>Home</h1>
+  <h1>Home</h1>
+  <NuxtImg src="/nuxt-icon.png" />
 </template>
   
 <script lang="ts" setup>

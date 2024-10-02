@@ -1,6 +1,7 @@
 <template>
   <NuxtLink
     :to="route.path"
+    class="hover:text-green-500"
   >
     {{ route.label }}
   </NuxtLink>

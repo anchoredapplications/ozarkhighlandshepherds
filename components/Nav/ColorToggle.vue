@@ -1,25 +1,21 @@
 <template>
-  <USelect
-    color="primary"
-    variant="outline"
-    option-attribute="name"
-    :options="themes"
+  <UToggle
+    on-icon="i-heroicons-sun"
+    off-icon="i-heroicons-moon"
+    v-model="isSelected"
     @change="onChange"
   />
 </template>
   
 <script setup lang="ts">  
   const colorMode = useColorMode()
-  const themes = [{
-    name: 'Light',
-    value: 'light'
-  }, {
-    name: 'Dark',
-    value: 'dark',
-  }]
+  const isSelected = ref(false)
+  onMounted(() => {
+    isSelected.value = (colorMode.value === "light")
+  })
 
-  const onChange = (value) => {
-    colorMode.preference = value
+  const onChange = (value: string) => {
+    colorMode.preference = !!value ? "light" : "dark"
   }
 </script>
   
