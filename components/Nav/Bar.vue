@@ -1,5 +1,5 @@
 <template>
-    <nav class="h-[64px] w-full p-4 bg-background border-b-2 shadow-xl">
+    <nav class="fixed h-[64px] w-full p-4 bg-white border-b shadow-xl dark:bg-neutral-900">
       <div class="container mx-auto flex justify-between items-center">
         <NuxtLink to="/" class="text-lg font-bold">Kennel App</NuxtLink>
         <NavLinkList class="hidden justify-center items-center gap-4 md:flex" :routes="routes" />
@@ -14,16 +14,7 @@
   </template>
   
   <script lang="ts" setup>
-  import { ref } from 'vue'
-  import { type Route } from '~/types/route'
-  
-  // Route names object
-  const routes: Record<string, Route> = {
-    home: { path: '/', label: 'Home' },
-    litters: { path: '/puppies', label: 'Puppies' },
-    about: { path: '/about', label: 'About Us' },
-    contact: { path: '/contact', label: 'Contact' },
-  }
+  import { routes } from '@/globals/routes' 
   
   const isMenuOpen = ref(false)
 
