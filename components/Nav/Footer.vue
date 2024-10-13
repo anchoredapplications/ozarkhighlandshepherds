@@ -1,10 +1,10 @@
 <template>
-    <footer class="pt-4 border-t shadow-xl">
+    <footer class="py-4 border-t shadow-xl">
         <div class="container mx-auto text-center">
         <p>&copy; {{ new Date().getFullYear() }} [Kennel Name]. All rights reserved.</p>
-        <nav class="flex justify-center gap-4 py-4">
+        <!-- <nav class="flex justify-center gap-4 pb-4">
             <a v-for="route of routes" :href="route.path" class="hover:underline">{{ route.label }}</a>
-        </nav>
+        </nav> -->
         </div>
     </footer>
 </template>

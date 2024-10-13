@@ -1,0 +1,34 @@
+{
+  "name":"German Shepherd Litters",
+  "description": "Our German Shepherd litters are uniquely themed to reflect the breed's heritage and the values of our homestead. Each litter features names and traits inspired by motifs like the \"Wild West\" or \"Farmstead,\" emphasizing strength, loyalty, and companionship. This approach adds meaning to the bond you'll share with your puppy, celebrating their role as both protectors and family members.",
+  "photo": "/image.png",
+  "litters": [{
+    "name": "Wild West Litter",
+    "photo": "/image.png",
+    "description": "Our Wild West Litter is full of adventurous, loyal, and hardworking pups, each with their own unique personality. Raised on the open fields of our homestead, these German Shepherds are ready to be loyal companions for life.",
+    "puppies": [
+      {
+        "name": "All",
+        "price": 0,
+        "images": ["/image.png"]
+      },
+      {
+        "name": "Bandit",
+        "price": 1200,
+        "images": ["/images/puppies/bandit1.jpg", "/images/puppies/bandit2.jpg"]
+      },
+      {
+        "name": "Dusty",
+        "price": 1300,
+        "images": ["/images/puppies/dusty1.jpg", "/images/puppies/dusty2.jpg"]
+      },
+      {
+        "name": "Sundance",
+        "price": 1400,
+        "images": ["/images/puppies/sundance1.jpg", "/images/puppies/sundance2.jpg"]
+      }
+    ]
+  }
+  ]
+  
+}

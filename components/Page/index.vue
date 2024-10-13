@@ -6,7 +6,7 @@
       </div>
   
       <!-- Text Column (Becomes full width on small screens) -->
-      <div class="md:w-1/2 w-full flex items-center justify-center p-8 border-black border-t shadow-t md:border-l md:shadow-l-inset" :class="[{'md:border-r md:shadow-r-inset':isFlipped}]">
+      <div class="w-full flex items-center justify-center p-8 border-black border-t shadow-t md:py-20 md:border-l md:shadow-l-inset md:w-1/2" :class="[{'md:border-r md:shadow-r-inset':isFlipped}]">
         <div class="text-lg">
           <slot></slot>
         </div>

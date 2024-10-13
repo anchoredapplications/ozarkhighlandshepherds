@@ -1,8 +1,7 @@
 <template>
-    <Litter :litter="litter"></Litter>
+    <Litter :breed="breed"></Litter>
 </template>
 
 <script setup>
     import breed from '~/data/breed.json'
-    const litter = breed.litters.reverse()[0]
 </script>

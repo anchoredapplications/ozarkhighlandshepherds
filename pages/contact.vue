@@ -1,5 +1,5 @@
 <template>
-    <Page image="/image.png" :isFlipped="true">
+    <Page image="/image.png" :isFlipped="false">
         <h1 class="text-4xl font-bold mb-4">Contact [Kennel Name]</h1>
         <div class="flex flex-col gap-6">
             <p>
