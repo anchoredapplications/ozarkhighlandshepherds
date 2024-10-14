@@ -2,11 +2,10 @@
   <Page :image="image" :isFlipped="false">
     <PageTitle :content="title"/>
     <PageText :content="content"/>
-    <IconList :icons="['/custom_akc.svg','/custom_akc.svg','/custom_akc.svg','/custom_akc.svg']"/>
   </Page>
 </template>
   
 <script lang="ts" setup>
   import en from "~/assets/en.json"
-  const { image, content, title } = en.welcome
+  const { image, content, title } = en.faq
 </script>

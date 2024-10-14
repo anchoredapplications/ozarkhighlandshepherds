@@ -1,12 +1,8 @@
 <template>
     <Page :image="currentItem.images[0]">
+      <PageTitle :content="name" />
       <div class="flex flex-col-reverse gap-6 px-6 md:flex-col">
-        <div class="flex flex-col gap-6">
-          <h1 class="text-4xl font-bold mb-4">{{ name }}</h1>
-    
-          <p>{{ description }}</p>
-          <p>Explore more by using the controls below.</p>
-        </div>
+        <PageText :content="description"/>
         <div class="flex justify-between items-center md:mt-8">
           <UButton
             @click="previous"

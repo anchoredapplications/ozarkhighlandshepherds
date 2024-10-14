@@ -8,11 +8,6 @@
     "description": "Our Wild West Litter is full of adventurous, loyal, and hardworking pups, each with their own unique personality. Raised on the open fields of our homestead, these German Shepherds are ready to be loyal companions for life.",
     "puppies": [
       {
-        "name": "All",
-        "price": 0,
-        "images": ["/image.png"]
-      },
-      {
         "name": "Bandit",
         "price": 1200,
         "images": ["/images/puppies/bandit1.jpg", "/images/puppies/bandit2.jpg"]
