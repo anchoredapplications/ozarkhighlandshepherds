@@ -30,6 +30,3 @@ const props = defineProps({
 });
 </script>
 
-<style scoped>
-/* You can add any custom styles here if necessary */
-</style>

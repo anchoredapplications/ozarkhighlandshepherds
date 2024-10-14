@@ -1,5 +1,5 @@
 <template>
-  <Page :image="image" :isFlipped="false">
+  <Page :image="image" :isFlipped="true">
     <PageTitle :content="title"/>
     <PageText :content="content"/>
   </Page>
