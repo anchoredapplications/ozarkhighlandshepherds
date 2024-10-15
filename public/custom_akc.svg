@@ -32,7 +32,7 @@
          AMERICAN KENNEL CLUB
          </textPath>
       </text>
-      <text id="curve-text" font-size="30" font-weight="700" font-family="Cactus Classical Serif">
+      <text id="curve-text" font-size="30" font-weight="700" font-family="Cactus Classical Serif" width="300" height="300">
          <textPath href="#text-curve-path-bottom" startOffset="25%" text-anchor="middle">
          REGISTERED
          </textPath>
