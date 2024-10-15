@@ -1,5 +1,5 @@
 <template>
-    <nav class="fixed h-[64px] w-full min-w-64 p-2 bg-white border-b shadow-xl dark:bg-neutral-900 dark:text-neutral-200 dark:border-neutral-500">
+    <nav class="static h-[64px] w-full min-w-64 p-2 bg-white border-b shadow-xl md:fixed dark:bg-neutral-900 dark:text-neutral-200 dark:border-neutral-500">
       <div class="container mx-auto flex justify-between items-center">
         <NuxtLink to="/" class="flex items-center gap-2 pb-2 text-lg font-light font-bold font-serif leading-snug md:text-xl">
           <NuxtImg src="/highland.png" :width="45" :height="45" class="rounded-full border-2 border-black"/>

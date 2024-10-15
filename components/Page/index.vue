@@ -2,7 +2,7 @@
     <div class="min-h-screen flex flex-col md:flex-row dark:bg-neutral-900 dark:text-neutral-200" :class="[{'md:flex-row-reverse':isFlipped}]">
       <!-- Image Column (Becomes full width on small screens) -->
       <div class="md:w-1/2 w-full">
-        <NuxtImg :src="image" alt="Column Image" class="pt-12 w-full h-full object-cover" />
+        <NuxtImg :src="image" alt="Column Image" class="w-full h-full object-cover" />
       </div>
   
       <!-- Text Column (Becomes full width on small screens) -->
