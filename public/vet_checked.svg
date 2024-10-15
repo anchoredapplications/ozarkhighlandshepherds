@@ -1,23 +1,23 @@
-<svg id="eUXEFwtPAT31" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 300 300" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" fill="black">
+<svg id="eUXEFwtPAT31" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 300 300" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" stroke="black">
 <g transform="matrix(1.104471 0 0 1.174661-15.67065-26.249658)">
-<path d="M148.852748,27.78843l.103032.032454.103032-.032454L251.454206,60.102593l.001574.000498v0v108.219706c-9.557473,52.31749-59.904358,105.860902-102.396968,104.439402-.034321-.033886-.068661-.067793-.103032-.101729-.034371.033936-.068711.067843-.103032.101729-42.49261,1.4215-92.839495-52.121902-102.396968-104.439402v-108.219706l.001574-.000498L148.852748,27.78843Z" stroke-width="8" stroke-linejoin="bevel" fill="white"/>
-<path d="M148.90892,39.6744l.09188.02932.09188-.02932l91.31314,29.19381.0014.00045v97.76969c-8.52307,47.26556-53.42091,95.63866-91.31454,94.35442-.03061-.03061-.06123-.06125-.09188-.09191-.03065.03066-.06127.06129-.09188.09191-37.89363,1.28424-82.79148-47.08885-91.31454-94.35442v-97.76969l.0014-.00045L148.90892,39.6744Zm27.61047,42.05503L163.99808,67.15695l-47.35355,40.68824l12.52131,14.57248l47.35355-40.68824Z" fill="#45dc63"  stroke-width="4" stroke-linejoin="bevel"/>
-<rect width="273.462496" height="59.389749" rx="0" ry="0" transform="matrix(.983621 0 0 1.187394 15.508273 139.314415)" fill="#45dc63"  stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M148.852748,27.78843l.103032.032454.103032-.032454L251.454206,60.102593l.001574.000498v0v108.219706c-9.557473,52.31749-59.904358,105.860902-102.396968,104.439402-.034321-.033886-.068661-.067793-.103032-.101729-.034371.033936-.068711.067843-.103032.101729-42.49261,1.4215-92.839495-52.121902-102.396968-104.439402v-108.219706l.001574-.000498L148.852748,27.78843Z" stroke="inherit" stroke-width="8" stroke-linejoin="bevel" fill="white"/>
+<path d="M148.90892,39.6744l.09188.02932.09188-.02932l91.31314,29.19381.0014.00045v97.76969c-8.52307,47.26556-53.42091,95.63866-91.31454,94.35442-.03061-.03061-.06123-.06125-.09188-.09191-.03065.03066-.06127.06129-.09188.09191-37.89363,1.28424-82.79148-47.08885-91.31454-94.35442v-97.76969l.0014-.00045L148.90892,39.6744Zm27.61047,42.05503L163.99808,67.15695l-47.35355,40.68824l12.52131,14.57248l47.35355-40.68824Z" fill="#45dc63" stroke="inherit" stroke-width="4" stroke-linejoin="bevel"/>
+<rect width="273.462496" height="59.389749" rx="0" ry="0" transform="matrix(.983621 0 0 1.187394 15.508273 139.314415)" fill="#45dc63" stroke="inherit" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
 <text dx="0" dy="0" font-family="&quot;eUXEFwtPAT31:::Oswald&quot;" font-size="50" font-weight="400" transform="translate(22.995876 195.060424)" fill="#fff" stroke-width="0">
 <tspan y="0" font-weight="400" stroke-width="0">
 VET-CHECKED
 </tspan>
 </text>
 <g transform="matrix(.594853-.506873 0.52884 0.620633 6.302289 108.302613)">
-<rect width="82.461078" height="24.155265" rx="0" ry="0" transform="translate(107.725241 86.911872)" fill="none"  stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="19.101928" y1="0" x2="-5.46895" y2="0.39982" transform="translate(88.623313 98.989505)" fill="none"  stroke-width="4" stroke-linecap="round"/>
-<line x1="0" y1="-6.038816" x2="0" y2="6.038816" transform="translate(122.708693 92.950689)" fill="none"  stroke-width="3"/>
-<line x1="0" y1="-6.038816" x2="0" y2="6.038816" transform="translate(164.515311 92.950689)" fill="none"  stroke-width="3"/>
-<line x1="0" y1="-6.038816" x2="0" y2="6.038816" transform="translate(136.411973 92.950689)" fill="none"  stroke-width="3"/>
-<line x1="0" y1="-6.038816" x2="0" y2="6.038816" transform="translate(150 92.950689)" fill="none"  stroke-width="3"/>
-<line x1="0" y1="-20.109086" x2="0" y2="20.109086" transform="matrix(-1 0 0 0.96645 190.186319 98.989505)" fill="none"  stroke-width="4" stroke-linecap="round"/>
-<line x1="-9.304069" y1="0" x2="9.304069" y2="0" transform="translate(199.490388 98.989505)" fill="none"  stroke-width="4"/>
-<line x1="0" y1="-6.73129" x2="0" y2="6.73129" transform="translate(208.794457 98.989505)" fill="none"  stroke-width="3" stroke-linecap="round"/>
+<rect width="82.461078" height="24.155265" rx="0" ry="0" transform="translate(107.725241 86.911872)" fill="none" stroke="inherit" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="19.101928" y1="0" x2="-5.46895" y2="0.39982" transform="translate(88.623313 98.989505)" fill="none" stroke="inherit" stroke-width="4" stroke-linecap="round"/>
+<line x1="0" y1="-6.038816" x2="0" y2="6.038816" transform="translate(122.708693 92.950689)" fill="none" stroke="inherit" stroke-width="3"/>
+<line x1="0" y1="-6.038816" x2="0" y2="6.038816" transform="translate(164.515311 92.950689)" fill="none" stroke="inherit" stroke-width="3"/>
+<line x1="0" y1="-6.038816" x2="0" y2="6.038816" transform="translate(136.411973 92.950689)" fill="none" stroke="inherit" stroke-width="3"/>
+<line x1="0" y1="-6.038816" x2="0" y2="6.038816" transform="translate(150 92.950689)" fill="none" stroke="inherit" stroke-width="3"/>
+<line x1="0" y1="-20.109086" x2="0" y2="20.109086" transform="matrix(-1 0 0 0.96645 190.186319 98.989505)" fill="none" stroke="inherit" stroke-width="4" stroke-linecap="round"/>
+<line x1="-9.304069" y1="0" x2="9.304069" y2="0" transform="translate(199.490388 98.989505)" fill="none" stroke="inherit" stroke-width="4"/>
+<line x1="0" y1="-6.73129" x2="0" y2="6.73129" transform="translate(208.794457 98.989505)" fill="none" stroke="inherit" stroke-width="3" stroke-linecap="round"/>
 </g>
 </g>
 <style>
