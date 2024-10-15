@@ -1,7 +1,9 @@
 <template>
   <NuxtLink
+    v-if="!route?.disabled"
     :to="route.path"
     class="hover:text-green-500"
+    @click="handleClick"
   >
     {{ route.label }}
   </NuxtLink>
@@ -10,9 +12,12 @@
 <script lang="ts" setup>
   import { defineProps } from 'vue'
   import { type Route } from '~/types/route'
-  
-  // Define the props for the Link component
+  const event = "linkClicked"
+  const emit = defineEmits([event]); // Define the event
+  const handleClick = () => {
+    emit(event, true);
+  }
   const props = defineProps<{
-    route: Route
+    route: Route,
   }>()
 </script>

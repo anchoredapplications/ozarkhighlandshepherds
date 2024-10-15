@@ -3,6 +3,6 @@
 </template>
 
 <script setup>
-    import breed from '~/data/breed.json'
+    import breed from '~/assets/breed.json'
     const litter = breed.litters.reverse()[0]
 </script>

@@ -1,5 +1,5 @@
 <template>
-    <Page :image="currentItem.images[0]">
+    <Page :image="currentItem?.images?.[0]">
       <PageTitle :content="name" />
       <div class="flex flex-col-reverse gap-6 px-6 md:flex-col">
         <PageText :content="description"/>
@@ -45,8 +45,7 @@
       name.value = props.breed.name
       description.value = props.breed.description
       list.value = [{name: "All", images: [props.breed.photo]}, ...props.breed.litters]
-    }
-    if (!!props.litter) {
+    } else if (!!props.litter) {
       name.value = props.litter.name
       description.value = props.litter.description
       list.value = [{name: "All", images: [props.litter.photo]}, ...props.litter.puppies]
@@ -54,7 +53,7 @@
 
     const currentItem = computed(() => list.value[currentIndex.value]);
 
-    function previous() {
+    function previous(currentIndex) {
       currentIndex.value =
         (currentIndex.value - 1 + list.value.length) % list.value.length;
     }
@@ -64,7 +63,3 @@
         (currentIndex.value + 1) % list.value.length;
     }
 </script>
-
-<style scoped>
-/* You can add any custom styles if necessary */
-</style>

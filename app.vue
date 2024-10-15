@@ -1,7 +1,7 @@
 <script setup>
 useHead({
-  title: 'KennelApp',
-  meta: [{ name: 'Kennel App', content: "Kennel's App" }],
+  title: 'Ozark Highland Shepherds',
+  meta: [{ name: 'Ozark Highland Shepherds', content: "German Shepherd breeder situated in the Ozarks." }],
 });
 </script>
 

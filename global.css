@@ -1,0 +1,9 @@
+/* Light mode variables */
+:root {
+    --svg-stroke-color: red; /* Default stroke color in light mode */
+}
+
+/* Dark mode variables */
+.dark {
+    --svg-stroke-color: white; /* Stroke color in dark mode */
+}

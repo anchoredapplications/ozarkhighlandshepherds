@@ -1,20 +1,24 @@
 {
+  "title": "Ozark Highland Shepherds",
   "welcome": {
     "image":"/dagger_field.png",
-    "title": "[Kennel Name]",
+    "title": "Ozark Highland Shepherds",
     "content": [
-      "At [Kennel Name], we are dedicated to breeding exceptional German Shepherds. Our family-owned kennel values small businesses and focuses on raising working-class dogs for working-class people. Each puppy is nurtured on our homestead, where they can run free and thrive in a natural environment.",
+      "At Ozark Highland Shepherds, we are dedicated to breeding exceptional German Shepherds. Our family-owned kennel values small businesses and focuses on raising working-class dogs for working-class people. Each puppy is nurtured on our homestead, where they can run free and thrive in a natural environment.",
       "Our dogs are raised with care and socialized from an early age, receiving top-quality training to bring out their natural intelligence, agility, and loyalty. Whether you're looking for a family pet, a working dog, or a loyal protector, we have the right companion for you.",
-      "Discover the [Kennel Name] difference – where tradition meets excellence, and every dog is treated as part of the family."
+      "Discover the Ozark Highland Shepherds difference – where tradition meets excellence, and every dog is treated as part of the family."
     ]
   },
   "faq": {
     "image":"/both_snow.png",
     "title": "Frequently Asked Questions",
     "content": [
-      "[Kennel Name] is committed to breeding and raising German Shepherds with strength, loyalty, and intelligence. Each puppy is bred with care and attention, ensuring they are well-prepared to become loving companions.",
-      "Our kennel is built on the principles of small business values, emphasizing quality and the well-being of our dogs. We raise our puppies in a natural environment where they can run free and thrive."
-    ]
+      "Ozark Highland Shepherds is dedicated to breeding strong, loyal, and intelligent German Shepherds raised with care in a natural environment.",
+      "**Are all puppies AKC registered?**\nYes, all of our puppies are registered with the American Kennel Club (AKC), ensuring their purebred status and compliance with breed standards.",
+      "**Are the puppies vet checked?**\nAbsolutely. Each puppy undergoes a thorough health examination by a certified veterinarian before going to their new home, ensuring they are in excellent health.",
+      "**Are the puppies purebred German Shepherds?**\nYes, all our puppies are purebred German Shepherds, bred from strong bloodlines to ensure the best qualities of the breed are maintained.",
+      "**Do the puppies come with full breeding rights?**\nYes, each puppy comes with full breeding rights. This means you can choose to breed your puppy in the future with the assurance that they are a registered, purebred German Shepherd."
+      ]
   },
   "contact": {
     "image":"/tilde_field.png",
@@ -22,8 +26,8 @@
     "content": [
       "We’d love to hear from you! Whether you have questions about our German Shepherds, want to learn more about our breeding practices, or are interested in welcoming a new companion into your home, we’re here to help.",
       "Feel free to reach out to us through any of the methods below, and we’ll get back to you as soon as possible.",
-      "## Contact Information\n**Email:** [info@kennelname.com](mailto:info@kennelname.com)\n**Phone:** [123-456-7890](tel:+11234567890)\n**Location:** [Your Homestead Location]",      "We are located on a peaceful homestead where our dogs can run free and enjoy the natural environment. While we don't have a public visiting facility, we welcome inquiries and are happy to arrange visits by appointment.",
-      "Thank you for considering [Kennel Name] as your trusted German Shepherd breeder. We look forward to connecting with you!"
+      "## Contact Information\n**Email:** [info@kennelname.com](mailto:info@kennelname.com)\n**Phone:** [123-456-7890](tel:+11234567890)\n**Location:** Everton, Missouri",      "We are located on a peaceful homestead where our dogs can run free and enjoy the natural environment. While we don't have a public visiting facility, we welcome inquiries and are happy to arrange visits by appointment.",
+      "Thank you for considering Ozark Highland Shepherds as your trusted German Shepherd breeder. We look forward to connecting with you!"
     ]
   }
 }

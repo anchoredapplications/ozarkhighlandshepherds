@@ -3,5 +3,5 @@
 </template>
 
 <script setup>
-    import breed from '~/data/breed.json'
+    import breed from '~/assets/breed.json'
 </script>

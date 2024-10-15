@@ -1,9 +1,11 @@
 import type { Route } from "~/types/route";
+import breed from '~/assets/breed.json'
 
-export const routes: Record<string, Route> = {
-    home: { path: '/', label: 'Home' },
-    about: { path: '/faq', label: 'FAQ' },
-    litters: { path: '/litters', label: 'Litters' },
-    puppies: { path: '/puppies', label: 'New Puppies' },
-    contact: { path: '/contact', label: 'Contact' },
+export const getRoutes: () => Record<string, Route> = () => {
+    return {
+        about: { path: '/faq', label: 'FAQ' },
+        litters: { path: '/litters', label: 'Litters', disabled: breed.litters.length <= 1 },
+        puppies: { path: '/puppies', label: 'New Puppies', disabled: breed.litters.length == 0 },
+        contact: { path: '/contact', label: 'Contact' },
+    };
 }

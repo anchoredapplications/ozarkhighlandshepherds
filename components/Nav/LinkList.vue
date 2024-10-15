@@ -2,8 +2,10 @@
   <div :class="class">
     <NavLink
       v-for="(route, name) in routes"
+      v-if="!route?.disabled"
       :key="name"
       :route="route"
+      @linkClicked="handleClick"
     />
     <NavColorToggle />
   </div>
@@ -12,10 +14,14 @@
 <script lang="ts" setup>
   import { defineProps } from 'vue'
   import { type Route } from '~/types/route'
-  
-  // Define the props for the LinkList component
+  const event = "linkClicked"
+  const emit = defineEmits([event]); // Define the event
+  const handleClick = () => {
+    emit(event, true);
+  }
   const props = defineProps<{
     class:string,
-    routes: Record<string, Route>
+    routes: Record<string, Route>,
+    closeMenu: () => boolean
   }>()
 </script>
