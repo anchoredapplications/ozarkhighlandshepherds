@@ -10,7 +10,6 @@
 </template>
   
 <script lang="ts" setup>
-  import { defineProps } from 'vue'
   import { type Route } from '~/types/route'
   const event = "linkClicked"
   const emit = defineEmits([event]); // Define the event

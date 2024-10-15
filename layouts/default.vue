@@ -7,11 +7,3 @@
       <NavFooter />
     </div>
 </template>
-  
-<script>
-  
-</script>
-
-<style>
-/* You can add global styles here if needed */
-</style>

@@ -8,19 +8,19 @@
             @click="previous"
             icon="i-heroicons-chevron-left"
             size="sm"
-            color="primary"
             variant="solid"
             class="rounded-full"
+            aria-label="Previous"
             :trailing="false"
           />
-          <p class="text-lg">{{ currentItem.name }}</p>
+          <p class="text-lg">{{ currentItem?.name }}</p>
           <UButton
             @click="next"
             icon="i-heroicons-chevron-right"
             size="sm"
-            color="primary"
             variant="solid"
             class="rounded-full"
+            aria-label="Next"
             :trailing="false"
           />
         </div>
@@ -37,9 +37,8 @@
     }>();
     const name = ref('');
     const description = ref('');
-    const photo = ref('');
-    const currentIndex = ref(0);
-    const list = ref([]);
+    const currentIndex = ref<number>(0);
+    const list = ref<any[]>([]);
     
     if (!!props.breed) {
       name.value = props.breed.name
@@ -53,7 +52,7 @@
 
     const currentItem = computed(() => list.value[currentIndex.value]);
 
-    function previous(currentIndex) {
+    function previous() {
       currentIndex.value =
         (currentIndex.value - 1 + list.value.length) % list.value.length;
     }

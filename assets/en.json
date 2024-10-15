@@ -1,5 +1,9 @@
 {
   "title": "Ozark Highland Shepherds",
+  "menu": "Menu",
+  "icon": "Icon",
+  "next": "Next",
+  "previous": "Previous",
   "welcome": {
     "image":"/dagger_field.png",
     "title": "Ozark Highland Shepherds",
@@ -29,5 +33,6 @@
       "## Contact Information\n**Email:** [info@kennelname.com](mailto:info@kennelname.com)\n**Phone:** [123-456-7890](tel:+11234567890)\n**Location:** Everton, Missouri",      "We are located on a peaceful homestead where our dogs can run free and enjoy the natural environment. While we don't have a public visiting facility, we welcome inquiries and are happy to arrange visits by appointment.",
       "Thank you for considering Ozark Highland Shepherds as your trusted German Shepherd breeder. We look forward to connecting with you!"
     ]
-  }
+  },
+  "copyright": "Ozark Highland Shepherds. All rights reserved."
 }

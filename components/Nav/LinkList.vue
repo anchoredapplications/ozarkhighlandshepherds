@@ -1,7 +1,7 @@
 <template>
   <div :class="class">
     <NavLink
-      v-for="(route, name) in routes"
+      v-for="(route, name) of routes"
       v-if="!route?.disabled"
       :key="name"
       :route="route"
@@ -12,7 +12,6 @@
 </template>
   
 <script lang="ts" setup>
-  import { defineProps } from 'vue'
   import { type Route } from '~/types/route'
   const event = "linkClicked"
   const emit = defineEmits([event]); // Define the event
@@ -22,6 +21,6 @@
   const props = defineProps<{
     class:string,
     routes: Record<string, Route>,
-    closeMenu: () => boolean
+    closeMenu?: () => boolean
   }>()
 </script>

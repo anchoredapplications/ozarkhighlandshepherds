@@ -1,75 +1,50 @@
-# Nuxt 3 Minimal Starter
+# Ozark Highland Shepherds
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Welcome to the official repository for **Ozark Highland Shepherds**! This project is a Nuxt 3 application dedicated to showcasing our German Shepherd kennel, emphasizing our commitment to breeding high-quality, loyal, and intelligent dogs.
 
-## Setup
+## Table of Contents
 
-Make sure to install the dependencies:
+- [About Us](#about-us)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+
+## About Us
+
+Ozark Highland Shepherds is a family-owned kennel located in Missouri. We value small business principles and are dedicated to breeding exceptional German Shepherds. Our puppies are raised in a natural environment where they can run free, ensuring they grow into loving companions.
+
+## Features
+
+- **Responsive Design**: Optimized for both desktop and mobile devices.
+- **Puppy Listings**: Detailed information about our available litters and puppies.
+- **Contact Form**: Easy-to-use contact form for inquiries.
+- **FAQ Section**: Answers to common questions about our breeding practices and puppy care.
+
+## Installation
+
+To get started with the project, clone the repository and install the dependencies:
 
 ```bash
-# npm
+git clone https://github.com/yourusername/ozark-highland-shepherds.git
+cd ozark-highland-shepherds
 npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
 ```
 
-## Development Server
+## Usage
 
-Start the development server on `http://localhost:3000`:
+To run the development server, use:
 
 ```bash
-# npm
 npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
-## Production
+This will start the application at `http://localhost:3000`, where you can view the site in your browser.
 
-Build the application for production:
+## License
 
-```bash
-# npm
-npm run build
+This project is licensed under the MIT License.
 
-# pnpm
-pnpm run build
+---
 
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+Thank you for visiting **Ozark Highland Shepherds**! We look forward to connecting with you and helping you find your next loyal companion.

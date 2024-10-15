@@ -2,7 +2,12 @@
     <div class="min-h-screen flex flex-col md:flex-row dark:bg-neutral-900 dark:text-neutral-200" :class="[{'md:flex-row-reverse':isFlipped}]">
       <!-- Image Column (Becomes full width on small screens) -->
       <div class="md:w-1/2 w-full">
-        <NuxtImg :src="image" alt="Column Image" class="w-full h-full object-cover" />
+        <NuxtImg 
+          :src="image" 
+          alt="Column Image" 
+          class="w-full h-full object-cover"
+          format="webp"
+         />
       </div>
   
       <!-- Text Column (Becomes full width on small screens) -->
@@ -14,19 +19,7 @@
     </div>
 </template>
   
-
 <script lang="ts" setup>
-
-// Define props
-const props = defineProps({
-  image: {
-    type: String,
-    required: true,
-  },
-  isFlipped: {
-    type: Boolean,
-    required: false,
-  },
-});
+  const props = defineProps<{image: string, isFlipped: boolean}>();
 </script>
 
