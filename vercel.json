@@ -5,7 +5,7 @@
       "headers": [
         {
           "key": "X-Frame-Options",
-          "value": "ALLOW-FROM https://jeremiah.dev"
+          "value": "ALLOW-FROM https://jeremiah.dev http://localhost:3000"
         },
         {
           "key": "Content-Security-Policy",
