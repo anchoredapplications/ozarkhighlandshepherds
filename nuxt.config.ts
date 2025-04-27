@@ -1,11 +1,8 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  serverMiddleware: [
-    { path: '/', handler: '~/middleware/frame.ts' }
-  ],
   compatibilityDate: '2024-04-03',
   devtools: { enabled: true },
-  modules: ['@nuxt/image', '@nuxt/ui'],
+  modules: ['@nuxt/image', '@nuxt/ui', '@unocss/nuxt'],
   app: {
     head: {
       link: [

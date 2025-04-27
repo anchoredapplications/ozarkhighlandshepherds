@@ -1,6 +1,6 @@
 // Function to parse the markdown content
 export const parseMarkdown = (lines: string[]): string => {
-  return lines.map(line => {
+  if (lines) return lines.map(line => {
     // Convert headings
     line = line.replace(/^###### (.+)/gm, '<strong>$1</strong>');
     line = line.replace(/^##### (.+)/gm, '<strong>$1</strong>');
@@ -20,4 +20,5 @@ export const parseMarkdown = (lines: string[]): string => {
     line = line.replace(/\n/g, '<br>');
     return `<p>${line}</p>`; // Wrap other lines in <p> tags
   }).join(''); // Combine all paragraphs into a single string
+  else return ""
 };

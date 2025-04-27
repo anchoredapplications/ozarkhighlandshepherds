@@ -2,8 +2,8 @@ import type { Puppy } from "./puppy";
 
 export interface Litter {
     name: string;
-    photo: string;
+    images: string[];
     birthDate: Date;
-    description: string;
+    description: string[];
     puppies: Puppy[];
 }

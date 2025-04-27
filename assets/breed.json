@@ -1,6 +1,72 @@
 {
   "name":"German Shepherd Litters",
   "description": ["Our German Shepherd litters are uniquely themed to reflect the breed's heritage and the values of our homestead. Each litter features names and traits inspired by motifs like the \"Wild West\" or \"Farmstead,\" emphasizing strength, loyalty, and companionship. This approach adds meaning to the bond you'll share with your puppy, celebrating their role as both protectors and family members."],
-  "photo": "/dagger_field.png",
-  "litters": []
+  "images": ["/dagger_field.png"],
+  "litters": [      
+  {
+    "name": "All",
+    "images": ["/dagger_field.png"]
+  },
+  {
+    "name": "Easter Litter",
+    "images": ["/easter/easter_collage.jpg"],
+    "description": ["Our Easter Litter is full of adventurous, loyal, and hardworking pups, each with their own unique personality. Raised on the open fields of our homestead, these German Shepherds are ready to be loyal companions for life.", "Ready for their new home on June 1st, 2025."],
+    "puppies": [
+      {
+        "name": "All",
+        "price": 0,
+        "images": ["/easter/easter_collage.jpg"]
+      },
+      {
+        "name": "Puppy #1", 
+        "nickname": "Oreo",
+        "price": 1200,
+        "images": ["/easter/easter_oreo.jpeg"],
+        "sex": "Male"
+      },
+      {
+        "name": "Puppy #2", 
+        "nickname": "Rolo",
+        "price": 1200,
+        "images": ["/easter/easter_rolo.jpeg"],
+        "sex": "Male"
+      },
+      {
+        "name": "Puppy #3", 
+        "nickname": "Whopper",
+        "price": 1200,
+        "images": ["/easter/easter_whopper.jpeg"],
+        "sex": "Male"
+      },
+      {
+        "name": "Puppy #4", 
+        "nickname": "Cadbury",
+        "price": 1200,
+        "images": ["/easter/easter_cadbury.jpeg"],
+        "sex": "Male"
+      },
+      {
+        "name": "Puppy #5", 
+        "nickname": "Peep",
+        "price": 1200,
+        "images": ["/easter/easter_peep.jpeg"],
+        "sex": "Male"
+      },
+      {
+        "name": "Puppy #6", 
+        "nickname": "Hershey",
+        "price": 1200,
+        "images": ["/easter/easter_hershey.jpeg"],
+        "sex": "Female"
+      },
+      {
+        "name": "Puppy #7", 
+        "nickname": "Reese",
+        "price": 1200,
+        "images": ["/easter/easter_reese.jpeg"],
+        "sex": "Female"
+      }
+    ]
+  }
+  ]
 }
