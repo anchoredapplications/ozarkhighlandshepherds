@@ -6,6 +6,7 @@ export interface Puppy {
     sex: Sex;
     price: number;
     images: string[];
+    isSold?: boolean;
 }
 
 export function isPuppy(value: any): value is Puppy {

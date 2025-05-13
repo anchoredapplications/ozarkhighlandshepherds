@@ -13,7 +13,8 @@
             <p class="text-xl xl:text-2xl h-10">{{ currentItem?.name }}</p>
             <li class="flex justify-between h-10 w-full max-w-64"><b>{{ en.litter.nickname }}:</b><span>{{ currentItem.nickname }}</span></li>
             <li class="flex justify-between h-10 w-full max-w-64"><b>{{ en.litter.sex }}:</b> {{ currentItem.sex }}</li>
-            <li class="flex justify-between h-10  w-full max-w-64"><b>{{ en.litter.price }}:</b> ${{ currentItem.price }}</li>
+            <li v-if="!currentItem.isSold" class="flex justify-between h-10  w-full max-w-64"><b>{{ en.litter.price }}:</b> ${{ currentItem.price }}</li>
+            <li v-else class="flex justify-between h-10  w-full max-w-64"><b>{{ en.litter.price }}:</b><b class="color-red-500 uppercase">{{ en.litter.sold }}</b></li>
           </ul>
           <div v-else>
             <p class="text-xl xl:text-2xl h-40 flex items-center">{{ currentItem?.name }}</p>

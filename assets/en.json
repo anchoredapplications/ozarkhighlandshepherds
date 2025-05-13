@@ -4,39 +4,41 @@
   "icon": "Icon",
   "next": "Next",
   "previous": "Previous",
-  "litter" : {
+  "litter": {
     "price": "Price",
     "sex": "Sex",
-    "nickname": "Nickname"
+    "nickname": "Nickname",
+    "sold": "[Sold]"
   },
   "welcome": {
-    "image":"/dagger_snow.jpg",
+    "image": "/dagger_snow.jpg",
     "title": "Ozark Highland Shepherds",
     "content": [
-      "At Ozark Highland Shepherds, we are dedicated to breeding exceptional German Shepherds. Our family-owned kennel values small businesses and focuses on raising working-class dogs for working-class people. Each puppy is nurtured on our homestead, where they can run free and thrive in a natural environment.",
-      "Our dogs are raised with care and socialized from an early age, receiving top-quality training to bring out their natural intelligence, agility, and loyalty. Whether you're looking for a family pet, a working dog, or a loyal protector, we have the right companion for you.",
-      "Discover the Ozark Highland Shepherds difference – where tradition meets excellence, and every dog is treated as part of the family."
+      "Welcome to Ozark Highland Shepherds! Our small, family-owned kennel focuses on raising working-type German Shepherds. Our dogs are life companions, going everywhere with us on our homestead in Southwest Missouri.",
+      "Our puppies are nurtured with love and care. We socialize them from an early age. They frequently spend time with both adults and children. We work to expose them to various situations and other animals -- including cats. Whether you're looking for a family pet, a working dog, or a loyal protector, we have the right companion for you.",
+      "Discover the Ozark Highland Shepherds difference – where every dog is treated as part of the family."
     ]
   },
   "faq": {
-    "image":"/tilde_snow.jpg",
+    "image": "/tilde_snow.jpg",
     "title": "Frequently Asked Questions",
     "content": [
-      "Ozark Highland Shepherds is dedicated to breeding strong, loyal, and intelligent German Shepherds raised with care in a natural environment.",
+      "Ozark Highland Shepherds is dedicated to breeding quality German Shepherds raised with care in a natural environment.",
       "**Are litters registered?**\nYes, all of our litters are registered with the American Kennel Club (AKC), ensuring their purebred status and compliance with breed standards. Papers will be supplied to buyers if they wish to register individual puppies.",
       "**Are the puppies vet checked?**\nAbsolutely. Each puppy undergoes a thorough health examination by a certified veterinarian before going to their new home, ensuring they are in excellent health.",
-      "**Are the puppies purebred German Shepherds?**\nYes, all our puppies are purebred German Shepherds, bred from strong bloodlines to ensure the best qualities of the breed are maintained.",
-      "**Do the puppies come with full breeding rights?**\nYes, each puppy comes with full breeding rights. This means you can choose to breed your puppy in the future with the assurance that they are a registered, purebred German Shepherd."
-      ]
+      "**Are the puppies purebred German Shepherds?**\nYes, all our puppies are purebred German Shepherds.",
+      "**Do the puppies come with full breeding rights?**\nYes, each puppy comes with full breeding rights."
+    ]
   },
   "contact": {
-    "image":"/dagger_field.jpeg",
+    "image": "/dagger_field.jpeg",
     "title": "Contact",
     "content": [
-      "We’d love to hear from you! Whether you have questions about our German Shepherds, want to learn more about our breeding practices, or are interested in welcoming a new companion into your home, we’re here to help.",
+      "We’d love to hear from you! Whether you have questions about our dogs, want to learn more about our breeding practices, or are interested in welcoming a new companion into your home, we’re happy to help.",
       "Feel free to reach out to us through any of the methods below, and we’ll get back to you as soon as possible.",
-      "## Contact Information\n**Email:** [contact@ozarkhighlandshepherds.com](mailto:contact@ozarkhighlandshepherds.com)\n**Instagram:** [@ozarkhighlandshepherds](https://www.instagram.com/ozarkhighlandshepherds/)\n**Facebook:** [Ozark Highland Shepherds](https://www.facebook.com/profile.php?id=61575851396287)",      "We are located on a peaceful homestead where our dogs can run free and enjoy the natural environment. While we don't have a public visiting facility, we welcome inquiries and are happy to arrange visits by appointment.",
-      "Thank you for considering Ozark Highland Shepherds as your trusted German Shepherd breeder. We look forward to connecting with you!"
+      "## Contact Information\n**Email:** [contact@ozarkhighlandshepherds.com](mailto:contact@ozarkhighlandshepherds.com)\n**Instagram:** [@ozarkhighlandshepherds](https://www.instagram.com/ozarkhighlandshepherds/)\n**Facebook:** [Ozark Highland Shepherds](https://www.facebook.com/profile.php?id=61575851396287)",
+      "We are located on a family homestead near Dadeville, about 40 minutes northwest of Springfield, Missouri.",
+      "Thank you for considering Ozark Highland Shepherds. We look forward to connecting with you!"
     ]
   },
   "copyright": "Ozark Highland Shepherds. All rights reserved."
